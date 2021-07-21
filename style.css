@@ -26,7 +26,7 @@ h1 {
   align-items: center;
 }
 
-img {
+.photo img {
   border-radius: 100px;
 }
 
@@ -60,7 +60,9 @@ main p {
 }
 
 footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: grey;
-  text-align: end;
-  padding-right: 20px;
+  padding: 10px 20px 10px 0;
 }
