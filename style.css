@@ -58,6 +58,12 @@ main p {
 .skills li {
   list-style-type: none;
 }
+section a {
+  display: inline-block;
+  margin: 5px 0 0 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
 
 footer {
   display: flex;
